@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,18 +13,18 @@ MonoBehaviour:
   m_Name: noise_obj
   m_EditorClassIdentifier: 
   _layers: 2
-  _total_influence: 11
-  _octaves: 0400000001000000
-  _influence: 0700000004000000
+  _total_influence: 10
+  _octaves: 0400000002000000
+  _influence: 0700000003000000
   _persistence:
-  - 0.4
-  - 0.1
+  - 0.25
+  - 0.27
   _lacunarity:
-  - {x: 11.3, y: 11.3}
-  - {x: 5, y: 5}
+  - {x: 1, y: 1}
+  - {x: 12.85, y: 12.85}
   _offset:
   - {x: 7.1, y: 8.88}
-  - {x: 8.82, y: 1.59}
+  - {x: 14.9, y: 1.59}
   _scale:
-  - {x: 4.24, y: 4.24}
-  - {x: 3, y: 3}
+  - {x: 5.4, y: 5.4}
+  - {x: 1, y: 1}

@@ -56,10 +56,11 @@ public class Noise2DObjectEditor : Editor
 		//panel with options to generate and save images created
 		DrawImageGenerationPanel();
 
-		//update preview image
+		//update preview image and object
 		if (update_previews)
 		{
 			UpdatePreviewTextures();
+			EditorUtility.SetDirty(_obj);
 		}
 	}
 
